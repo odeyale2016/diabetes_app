@@ -11,7 +11,7 @@ from streamlit_option_menu import option_menu
 import numpy as np
 #loading the saved models
 #1 - diabetetic model
-diabetes_model = joblib.load('diabetes_model.pkl')
+diabetes_model = joblib.load('diabetes_model_svc.pkl')
 
  
 
